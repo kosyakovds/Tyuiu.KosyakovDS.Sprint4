@@ -12,7 +12,7 @@ namespace Tyuiu.KosyakovDS.Sprint4.Task0.V29.Lib
             {
                 if (array[i] % 2 != 0)
                 {
-                    sum += 1;
+                    sum += array[i];
                 }
             }
             return sum;

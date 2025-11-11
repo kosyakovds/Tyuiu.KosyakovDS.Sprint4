@@ -12,7 +12,7 @@ namespace Tyuiu.KosyakovDS.Sprint4.Task0.V29.Test
 
             int[] numsArray = { 7, 4, 3, 2, 1, 5, 9, 8, 7, 4 };
 
-            int wait = 6;
+            int wait = 32;
             int res = ds.GetSumOddArrEl(numsArray);
 
             Assert.AreEqual(wait, res);
